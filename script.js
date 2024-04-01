@@ -12,5 +12,7 @@ function cleanInputString(str) {
 }
 
 function isInvalidInput(str) {
-  
+  // const regex = /e/;
+  // const regex = /[0-9]e[0-9]/i; //There is a shorthand character class to match any digit: \d. Replace your [0-9] character classes with this shorthand.
+  const regex = /\d+e\d+/i;
 }
