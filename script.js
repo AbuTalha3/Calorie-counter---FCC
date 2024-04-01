@@ -11,5 +11,6 @@ function cleanInputString(str) {
   // const regex = /\+-\s/;
   // const regex = /[+-\s]/;
   const regex = /[+-\s]/g;
+  return str.replace(regex, '');
 
 }
